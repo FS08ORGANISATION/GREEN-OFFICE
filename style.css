@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#header{
+    background-color: #c4d621e6;
+    width: 50%;
+    height: 100px;
+}
+
+#main{
+    background-color: white;
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+}
+.logo{
+    float: left;
+    position: absolute;
+    /* margin: 20px 20px 20px 0px; */
+}
+.navbar{
+    float: right;
+    /* background-color: #c4d621e6; */
+    
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.navbar ul, .logo{
+    margin: 20px;
+    
+}
+.icone{
+   color: #c4d621e6; 
+   padding: 10px;
+}
+.image{
+    float: left;
+    width:  100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.paragraph1, .paragraph2{
+    padding: 10px;
+}
+.academy{
+    width: 80px;
+}
+#footer{
+    font-family: monospace;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.liste{
+    /* position: absolute; */
+    margin-left: 60px;
+    /* padding: 10px, 10px, 10px, 30px; */
+}
